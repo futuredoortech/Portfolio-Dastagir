@@ -15,18 +15,22 @@ h2 {
 
 h1{
     font-size: 60px;
+    margin-top: 0;
 }
 
 h2{
     font-size: 42px;
+    padding: 20px 0;
 }
 
 h3{
     font-size:36px;
     font-weight: 900;
+    margin-bottom: 0;
 }
 .small-text{
     font-size: 16px;
+    
 }
 
 .bold-txt{
@@ -39,7 +43,14 @@ h1 .bold-txt{
 }
 
 h2 .bold-txt{
-    font-weight: 60px;
+    font-weight: 60px;   
+}
+
+.bold-txt,
+.name,
+time{
+    color: #99D930;
+    font-weight: 900;
 }
 a{
     color:#99D930;
@@ -50,6 +61,30 @@ a:hover,
 a:active{
     color: #131313;
 }
+
+/* Links */
+.top-bottom-border{
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #99D930;
+    color: #252525;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px 25px;
+    margin-top: 10px;
+       
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #252525;
+    color: #FFF;
+}
+
 
 /* layout */
 
@@ -62,7 +97,7 @@ a:active{
 img{
     width: 200px;
     border-radius: 50%;
-    border: 10px solod #FFF;
+    border: 5px solid #FFF;
 }
 
 .top-part,
@@ -82,4 +117,10 @@ img{
 .invers{
     background-color: #252525;
     color: #FFF;
+}
+
+.invers .btn:hover,
+.invers .btn:active{
+    background-color: #FFF;
+    color: #252525;
 }
