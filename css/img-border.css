@@ -1,0 +1,10 @@
+body{
+    text-align: center;  
+    margin: 200px;
+    background-color: #D7D7D7;    
+}
+img{ 
+       width: 400px;
+       border: 10px solid #FFF;
+       border-radius: 50%;
+}
